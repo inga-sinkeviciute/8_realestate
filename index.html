@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+		/>
 		<title>Real Estate</title>
 		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 		<link
@@ -35,7 +39,7 @@
 
 	<body>
 		<header>
-			<img src="./img/logo.png" alt="Logo" />
+			<img src="./img/logo.jpg" alt="Logo" />
 
 			<div>
 				<nav>
@@ -54,13 +58,15 @@
 				<div>
 					<h1>We help you find your dream home.</h1>
 					<form>
-						<div>
+						<div class="button">
 							<button type="button">Buy</button>
 							<button type="button">Rent</button>
 						</div>
-						<div>
-							<input type="text" />
-							<button type="submit"></button>
+						<div class="div">
+							<input type="text" value="Search for city, Neighborhood, Zip" />
+							<button class="search">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</button>
 						</div>
 					</form>
 				</div>
@@ -69,58 +75,64 @@
 			<section>
 				<div>
 					<h2>Top neighborhood</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 				</div>
-				<div>
-					<div>
-						<img src="#" alt="House" />
-						<div>$1862 / Sq. Ft.</div>
-						<div>
-							<p>ICON + New York, NY</p>
+				<div class="top">
+					<div class="one">
+						<div class="blue">$1862 / Sq. Ft.</div>
+						<div id="one">
+							<p id="p">
+								<i class="fa-solid fa-location-dot"></i> New York, NY
+							</p>
 							<p>Carroll Gardens</p>
 						</div>
 					</div>
-					<div>
-						<img src="#" alt="House" />
-						<div>$1862 / Sq. Ft.</div>
-						<div>
-							<p>ICON + New York, NY</p>
+					<div class="two">
+						<div class="blue">$1862 / Sq. Ft.</div>
+						<div id="one">
+							<p id="p">
+								<i class="fa-solid fa-location-dot"></i> New York, NY
+							</p>
 							<p>Carroll Gardens</p>
 						</div>
 					</div>
-					<div>
-						<img src="#" alt="House" />
-						<div>$1862 / Sq. Ft.</div>
-						<div>
-							<p>ICON + New York, NY</p>
-							<p>Carroll Gardens</p>
+					<div class="a">
+						<div class="three">
+							<div class="blue">$1862 / Sq. Ft.</div>
+							<div id="one">
+								<p id="p">
+									<i class="fa-solid fa-location-dot"></i> New York, NY
+								</p>
+								<p>Carroll Gardens</p>
+							</div>
 						</div>
+
+						<a href="#">See all</a>
 					</div>
-					<a href="#">See all</a>
 				</div>
 			</section>
 
 			<section>
 				<div>
 					<h2>Recommended for you</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 				</div>
 				<div>
 					<div>
-						<img src="#" alt="House" />
+						<img src="./img/top.jpg" alt="House" />
 						<div>
 							<p>$123,456</p>
 							<p>121 Gatves g.</p>
 							<p>Miestas, Salis, 12345</p>
 							<div>
-								<div>ICON + 2 Baths</div>
-								<div>ICON + 2 Baths</div>
-								<div>ICON + 2 Baths</div>
+								<div><i class="fa-solid fa-location-dot"></i> 2 Baths</div>
+								<div><i class="fa-solid fa-location-dot"></i> 2 Baths</div>
+								<div><i class="fa-solid fa-location-dot"></i> 2 Baths</div>
 							</div>
 						</div>
 					</div>
 					<div>
-						<img src="#" alt="House" />
+						<img src="./img/top.jpg" alt="House" />
 						<div>
 							<p>$123,456</p>
 							<p>121 Gatves g.</p>
