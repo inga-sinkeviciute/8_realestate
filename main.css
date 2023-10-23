@@ -213,7 +213,7 @@ p {
 }
 
 .three {
-	background-image: url(/img/fasade.jpg);
+	background-image: url(/img/HD.jpg);
 	width: 190px;
 	height: 110px;
 	border-radius: 25px;
@@ -266,18 +266,22 @@ p {
 
 .a a:hover {
 	box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+	background-color: #8080ffe4;
 }
 
 .one:hover {
-	box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+	border: 1px solid grey;
+	box-shadow: 0 0 5px rgba(112, 112, 112, 0.5);
 }
 
 .two:hover {
-	box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+	border: 1px solid grey;
+	box-shadow: 0 0 5px rgba(112, 112, 112, 0.5);
 }
 
 .three:hover {
-	box-shadow: 0 0 5px rgba(128, 128, 128, 0.5);
+	border: 1px solid grey;
+	box-shadow: 0 0 5px rgba(115, 115, 115, 0.5);
 }
 
 main > section:nth-child(3) {
@@ -295,6 +299,11 @@ main > section:nth-child(3) {
 	display: grid;
 	grid-template-columns: auto 1fr;
 	grid-gap: 10px;
+	padding: 5px;
+}
+
+.side:hover {
+	box-shadow: 0 0 5px rgba(115, 115, 115, 0.5);
 }
 
 .side > img {
@@ -317,4 +326,8 @@ main > section:nth-child(3) {
 
 .ikona i {
 	color: #8080ffe4;
+}
+
+div i {
+	margin-left: 4px;
 }
