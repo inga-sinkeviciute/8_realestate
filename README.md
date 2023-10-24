@@ -7,6 +7,7 @@ My desktop version project for a real estate website.
 
 [here](https://dribbble.com/shots/10172325/attachments/2114690?mode=media)
 
-###🌟 About
+###
+🌟 About
 This project is for educational porpuses only. 
 If you want to run it locally, a command to be written in the terminal is npm run dev
